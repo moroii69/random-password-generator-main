@@ -1,0 +1,104 @@
+/* importing fonts from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
+/* styling for the body element */
+body { 
+	background-color: #18181e; /* dark background color */
+	color: #333; /* dark text color */
+	font-family: "Roboto Mono", monospace; /* using Roboto Mono font */
+} 
+
+/* styling for the password generator container */
+.generator { 
+	background-color: #22242b; /* darker background color */
+	width: 500px; /* fixed width */
+	margin: 150px auto; /* centering horizontally with top margin */
+	padding: 20px; /* space inside the container */
+	border-radius: 10px; /* rounded corners */
+} 
+
+/* styling for button hover effect */
+button:hover{
+    cursor: pointer; /* pointer cursor on hover */
+}
+
+/* styling for password input container */
+div.password { 
+	display: grid; /* using grid layout */
+	grid-template-columns: auto min-content; /* two columns */
+	border-radius: 10px; /* rounded corners */
+	overflow: hidden; /* hiding overflow content */
+} 
+
+/* styling for password input field */
+div.password input { 
+	padding: 7px 10px; /* padding around the input */
+	background-color: #ddd; /* light background color */
+	border: 0; /* no border */
+	color: #333; /* dark text color */
+} 
+
+/* styling for buttons */
+button { 
+	background-color: #18181e; /* dark background color */
+	color: #fff; /* white text color */
+	text-transform: uppercase; /* uppercase text */
+	padding: 5px 15px; /* padding around the text */
+	border: 0; /* no border */
+	border-radius: 10px; /* rounded corners */
+} 
+
+/* specific styling for buttons inside password container */
+div.password button { 
+	border-radius: 0; /* remove border radius */
+} 
+
+/* styling for range input container */
+div.range { 
+	margin: 10px 0; /* margin top and bottom */
+	display: grid; /* using grid layout */
+	grid-template-columns: 1fr min-content; /* two columns */
+} 
+
+/* styling for range span */
+div.range span { 
+	background-color: #ddd; /* light background color */
+	padding: 10px; /* padding around the text */
+	margin-left: 20px; /* left margin */
+	min-width: 30px; /* minimum width */
+	text-align: center; /* center align text */
+	border-radius: 10px; /* rounded corners */
+} 
+
+/* styling for options container */
+div.options { 
+	display: grid; /* using grid layout */
+	grid-template-columns: 1fr 1fr; /* two columns */
+	gap: 10px; /* gap between grid items */
+} 
+
+/* styling for options label */
+div.options label { 
+	display: block; /* block level element */
+	background-color: #ddd; /* light background color */
+	padding: 10px; /* padding around the text */
+	border-radius: 10px; /* rounded corners */
+	cursor: pointer; /* pointer cursor on hover */
+	font-family: sans-serif; /* using sans-serif font */
+} 
+
+/* styling for generate button */
+button.generate { 
+	width: 100%; /* full width */
+	margin-top: 10px; /* margin top */
+	padding: 10px; /* padding around the text */
+} 
+
+/* styling for heading */
+h1 {
+    text-align: center; /* center align text */
+    color: white; /* white text color */
+    font-family: 'Metropolis', sans-serif; /* using Metropolis font */
+    font-weight: 400; /* normal font weight */
+}
